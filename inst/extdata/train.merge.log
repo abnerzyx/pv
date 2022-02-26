@@ -1,0 +1,28 @@
+PLINK v1.90b6.18 64-bit (16 Jun 2020)
+Options in effect:
+  --bfile /home/yxzhang/Package_Development/pv/inst/extdata/train.merge
+  --noweb
+  --out /home/yxzhang/Package_Development/pv/inst/extdata/train.merge
+  --pca 10
+
+Hostname: dell-Precision-5820-Tower
+Working directory: /home/yxzhang
+Start time: Sat Feb 26 19:07:59 2022
+
+Note: --noweb has no effect since no web check is implemented yet.
+Random number seed: 1645873679
+64103 MB RAM detected; reserving 32051 MB for main workspace.
+1100 variants loaded from .bim file.
+220 people (0 males, 220 females) loaded from .fam.
+220 phenotype values loaded from .fam.
+Using up to 11 threads (change this with --threads).
+Before main variant filters, 220 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+1100 variants and 220 people pass filters and QC.
+Among remaining phenotypes, 110 are cases and 110 are controls.
+Relationship matrix calculation complete.
+--pca: Results saved to
+/home/yxzhang/Package_Development/pv/inst/extdata/train.merge.eigenval and
+/home/yxzhang/Package_Development/pv/inst/extdata/train.merge.eigenvec .
+
+End time: Sat Feb 26 19:07:59 2022

@@ -1,0 +1,26 @@
+PLINK v1.90b6.18 64-bit (16 Jun 2020)
+Options in effect:
+  --bfile /home/yxzhang/Package_Development/pv/inst/extdata/test
+  --missing
+  --noweb
+  --out /home/yxzhang/Package_Development/pv/inst/extdata/test
+
+Hostname: dell-Precision-5820-Tower
+Working directory: /home/yxzhang
+Start time: Sat Feb 26 19:07:59 2022
+
+Note: --noweb has no effect since no web check is implemented yet.
+Random number seed: 1645873679
+64103 MB RAM detected; reserving 32051 MB for main workspace.
+1100 variants loaded from .bim file.
+20 people (0 males, 20 females) loaded from .fam.
+20 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 20 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+--missing: Sample missing data report written to
+/home/yxzhang/Package_Development/pv/inst/extdata/test.imiss, and variant-based
+missing data report written to
+/home/yxzhang/Package_Development/pv/inst/extdata/test.lmiss.
+
+End time: Sat Feb 26 19:07:59 2022

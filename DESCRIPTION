@@ -1,0 +1,21 @@
+Package: pv
+Type: Package
+Title: Prism Vote: A stratified statistical framework for individual
+        disease risk prediction
+Version: 0.1.6
+Author: Maggie Haitian Wang, Yexian Zhang
+Maintainer: Yexian Zhang <yxzhang@cuhkri.org.cn>
+Description: The Prism Vote framework is in essence a Bayesian hierarchical probability model,  
+              in which an individual’s disease risk is integrated from subpopulation-specific disease estimates and the prior probabilities of a subject’s subpopulation identity. Using PLINK, Principal Component Analysis (PCA) is adopted to identify subpopulations, Logistic Regression (LR) analysis is adopted for case-control Genome-Wide Association Studies (GWAS). 
+              Feature selection is performed using GWAS P-values with user-specified cutoff or using user-specified candidate SNPs. Four prediction models are built on selected SNPs. Two are 
+              LR and Polygenic Risk Score (PRS)-based LR. The other two are LR and PRS-based LR 
+              under the Prism Vote framework. Covariates can be included in GWAS analysis and predictive modeling.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: plinkQC, pROC, infotheo, purrr, data.table
+Depends: R (>= 3.6.0)
+SystemRequirements: PLINK (1.9)
+RoxygenNote: 7.1.1
+NeedsCompilation: no
+Packaged: 2022-02-26 11:10:46 UTC; yxzhang
